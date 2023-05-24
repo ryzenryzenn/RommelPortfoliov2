@@ -78,48 +78,4 @@
     }, { offset: '80%' });
 
 
-    // Testimonials carousel
-    $(".testimonials-carousel").owlCarousel({
-        center: true,
-        autoplay: true,
-        dots: true,
-        loop: true,
-        responsive: {
-            0: {
-                items: 1
-            }
-        }
-    });
-
-
-
-    // Portfolio filter
-    var portfolioIsotope = $('.portfolio-container').isotope({
-        itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
-    });
-
-    $('#portfolio-filter li').on('click', function() {
-        $("#portfolio-filter li").removeClass('filter-active');
-        $(this).addClass('filter-active');
-        portfolioIsotope.isotope({ filter: $(this).data('filter') });
-    });
-
 })(jQuery);
-
-
-function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
-
-    if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more";
-        moreText.style.display = "none";
-    } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less";
-        moreText.style.display = "inline";
-    }
-}

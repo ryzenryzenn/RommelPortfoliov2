@@ -5,6 +5,7 @@ body {
     color: #ffff;
     background: #0D1116;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 h1,
@@ -14,6 +15,7 @@ h4,
 h5,
 h6 {
     color: #ffff;
+    font-weight: 600;
 }
 
 a {
@@ -41,7 +43,6 @@ a:focus {
 .btn {
     padding: 12px 25px;
     font-size: 14px;
-    font-weight: 300;
     letter-spacing: 1px;
     color: #FF2D20;
     background: #FF2D20;
@@ -54,7 +55,7 @@ a:focus {
 }
 
 .btn:hover {
-    color: #FF2D20;
+    color: #ffff;
     background: transparent;
     box-shadow: inset 0 0 0 0 #FF2D20;
     border-color: #FF2D20;
@@ -136,6 +137,24 @@ a:focus {
 
 .back-to-top:hover i {
     color: #414141;
+}
+
+
+/* The progress container (grey background) */
+
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+}
+
+
+/* The progress bar (scroll indicator) */
+
+.progress-bar {
+    height: 8px;
+    background: #04AA6D;
+    width: 0%;
 }
 
 
@@ -480,7 +499,7 @@ a:focus {
 }
 
 .service .service-icon {
-    width: 0px;
+    width: 25px;
     display: flex;
     justify-content: center;
     margin-top: -25px;
@@ -489,7 +508,7 @@ a:focus {
 .service .service-icon i {
     position: relative;
     font-size: 60px;
-    color: #F0A500;
+    /* color: #F0A500; */
     transition: .3s;
 }
 
@@ -527,7 +546,7 @@ a:focus {
 .section-header {
     font-size: 52px;
     margin-top: 15%;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .section-header p::before {
@@ -537,7 +556,6 @@ a:focus {
     top: 11px;
     right: 0;
     left: -30px;
-    background: #FF2D20;
     z-index: -1;
 }
 
@@ -575,7 +593,7 @@ a:focus {
 .experience-header {
     font-size: 52px;
     margin-top: 15%;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 10%;
 }
 
@@ -772,6 +790,88 @@ a:focus {
 
 /**********************************/
 
-.row {
-    position: relative;
+.ftco-section {
+    padding: 7em 0;
+    position: absolute;
+    margin-top: 150%;
+    width: 100%;
+    background: #11171E;
+    z-index: -1;
+}
+
+.works-header {
+    font-size: 52px;
+    margin-top: 15%;
+    font-weight: 500;
+    margin-bottom: 10%;
+    margin-left: -5%;
+}
+
+.contact {
+    position: absolute;
+    margin-top: 220%;
+    width: 100%;
+}
+
+.contact-text {
+    font-size: 52px;
+    margin-top: 15%;
+    font-weight: 500;
+    margin-bottom: 10%;
+    margin-left: -5%;
+}
+
+.touch {
+    display: inline;
+    color: #FF2D20;
+    font-weight: 700;
+}
+
+.touch-text {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: -5%;
+    color: #A9A9A9;
+    margin-top: 10%;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+.form-contact {
+    background: #11171E;
+    border-radius: 5px;
+    margin-top: 20;
+}
+
+.contact-form {
+    padding: 50px;
+}
+
+.form-label {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.form-control {
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #FF2D20;
+}
+
+.btn {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.location {
+    margin-bottom: 20px;
+    margin-left: -5%;
+}
+
+.malabon {
+    display: inline;
+    margin-top: 5px;
 }
