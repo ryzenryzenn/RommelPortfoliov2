@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
     <title>Rommel Portfolio</title>
     <link rel="icon" type="image/x-icon" href="logo.ico">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -13,22 +14,24 @@
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
-
     <main id="particles-js" class="parent">
+        <!-- <iframe class="music" width="560" height="315" src="https://www.youtube.com/embed/iyAR3lhP5VE?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
-        <iframe class="music" width="560" height="315" src="https://www.youtube.com/embed/iyAR3lhP5VE?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="music" width="560" height="315" src="https://www.youtube.com/embed/IHHX9CEyJ24?autoplay=1&mute=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
         <!---Navbar-->
         <div class="navbar navbar-expand-lg bg-light navbar-light">
             <div class="container-fluid">
                 <a href="index.html" class="navbar-brand">
                     <img src="assets/logoo.png" height="100" alt="re logo" />
                 </a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"> 
+                        <img src="assets/burger.svg" class="navbar-toggler-icon"></img>
                     </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
@@ -41,14 +44,6 @@
                 </div>
             </div>
         </div>
-        <div class="vl"></div>
-        <div class="assets">
-            <a target="_blank" href="https://github.com/ryzenryzenn"><img src="assets/github.svg" class="github-gutter" alt="" width="35" height="35"><br></a>
-            <img src="assets/facebook.svg" class="facebook-gutter" alt="" width="35" height="35"><br>
-            <img src="assets/linkedin.svg" alt="" width="35" height="35"><br>
-
-        </div>
-
         <!-- Hero Start -->
         <div class="hero" id="home">
             <div class="container-fluid">
@@ -57,16 +52,14 @@
                         <div class="hero-content">
                             <div class="hero-text">
                                 <h1>I'm Rommel Ebarola</h1>
-                                <h1></h1>
                                 <h2></h2>
                                 <div class="typed-text">Front-End Developer, UI/UX Designer</div>
                             </div>
                             <div class="hero2-text">
                                 <p>I create high quality and modern UI/UX Design,<br>I am passionate about creating functional and visually appealing products that solve real-world problems.</p>
                             </div>
-
                             <div class="hero-btn">
-                                <a class="btn" href=""><i class="fa fa-user"></i>&nbsp&nbspHire Me</a>
+                                <a class="btn" href="https://www.linkedin.com/in/rommelebarola/"><i class="fa fa-user"></i>&nbsp&nbspHire Me</a>
                                 <a class="btn" href="assets/Rommel Ebarola Resume.pdf" download="Ebarola, Rommel CV"><i class="fa fa-download"></i>&nbsp&nbspDownload CV</a>
                             </div>
                         </div>
@@ -93,10 +86,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-9 wow fadeInUp" data-wow-dela y="0.2s">
+                    <div class="col-sm-9 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-item">
-                            <p>I have a solid background in agile environments such as Scrum/Kanban with a background in basic software testing and a self-taught UI/UX designer. I create visually stunning, user-friendly websites optimized for an exceptional
-                                user experience. With skills in both development and design, I provide full-stack solutions and custom web and mobile applications to bring your vision to life.</p>
+                            <p class="service-p">I have a solid background in software development process with a basic background in basic software testing, a self-taught UI/UX designer and working experience as an junior software developer. I create visually stunning, user-friendly
+                                websites optimized for an exceptional user experience. With skills in both development and design, Let's bring your digital visions to life!</p>
                         </div>
                     </div>
                 </div>
@@ -104,7 +97,7 @@
         </div>
 
         <!-- Experience Start -->
-        <div class="experience" id="experience">
+        <section class="experience" id="experience">
             <div class="container">
                 <header class="experience-header text-center wow zoomIn" data-wow-delay="0.1s">
                     <p>My Experiences</p>
@@ -113,12 +106,12 @@
                     <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
                         <div class="timeline-text">
                             <div class="timeline-date">June 2022 – October 2022</div>
-                            <h2> Junior Software Developer</h2>
+                            <h2>Software Developer</h2>
                             <h4>Intern, Innov8 Green Technology Solutions</h4>
                             <br><br>
                             <p>
-                                • Worked closely with other team members to plan, design, and develop the project requirements. <br>• Worked with a version control system (VCS). <br>• Setting up the project environment with the necessary frameworks to
-                                develop the applications. <br> • Fixing, debugging, and improving existing software projects.<br>
+                                • Worked closely with other team members to plan, design, and develop the project requirements. <br>• Participated in an Agile development environment.<br>• Setting up the project environment with the necessary frameworks
+                                to develop the applications. <br> • Fixing, debugging, and improving existing software projects.<br>
                             </p>
 
                         </div>
@@ -137,11 +130,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <section class="ftco-section" id="blog-section">
             <div class="container" id="works">
                 <div class="row justify-content mb-5 pb-5">
-                    <div class="col-md-7 heading-section wow zoomIn">
+                    <div class="col-md-6 heading-section wow zoomIn">
                         <h1 class="works-header">Works</h1>
                     </div>
                     <div class="container">
@@ -153,10 +146,10 @@
                                     </a>
                                 </div>
                                 <h4 class="card-title mt-3 wow zoomIn">AIS Website</h4>
-                                <p class="wow zoomIn" style="
+                                <p class="wow zoomIn" style="color:#A9A9A9 ;
                                     color: #A9A9A9;
-                                    font-size: 18px;
-                                    font-weight: 500;">
+                                    font-size:18px;
+                                    font-weight:500;">
                                     Malware infographics</p>
                             </div>
                             <div class="col-md-6 mt-5">
@@ -173,7 +166,7 @@
                                     Photography Portfolio</p>
                             </div>
                             <div class="col-md-6">
-                                <div class="card heading-section wow zoomIn">
+                                <div class="card heading-section wow zoomIn mt-3">
                                     <a href="https://www.figma.com/proto/VWavaxUJWmXCLsflZuFQ9L/Practice?page-id=511%3A1059&type=design&node-id=2636-7477&viewport=1708%2C-423%2C0.38&scaling=scale-down&starting-point-node-id=2636%3A7485">
                                         <img class="card-img-top" src="assets/Yoasobi.PNG" alt="Card image cap">
                                     </a>
@@ -211,49 +204,52 @@
                             <h1 class="contact-text">Get In
                                 <span class="touch">Touch</span>
                             </h1>
-                            <p class="touch-text">I would love to hear from you! If you have any questions, comments, or just want to say hello, please don't hesitate to get in touch with me. </p>
-                            <img src="assets/locator.svg" class="location" width="25" height="50">
-                            <h6 class="malabon">Malabon City, Philippines</h6><br>
-                            <img src="assets/phone.svg" class="location" width="25" height="25"><br>
-
-                            <img src="assets/mail.svg" class="location" width="25" height="25"><br>
+                            <p class="touch-text">I would love to hear from you! If you have any questions, comments, or just want to say hello, please don't hesitate<br>to get in touch with me. </p>
+                            <br>
+                            <img src="assets/locator.svg" class="location" width="30" height="50">
+                            <h6 class="phone-number">Malabon City, Philippines</h6><br>
+                            <img src="assets/phone.svg" class="phone" width="25" height="25">
+                            <h6 class="phone-number">+639501255056</h6><br>
+                            <img src="assets/mail.svg" class="location" width="25" height="25">
+                            <h6 class="phone-number">rxmmelebarola@gmail.com</h6><br>
                         </div>
-                        <div class="col form-contact mt-3 ">
-                            <form class="contact-form ">
-                                <div class="form-group mt-5 ">
-                                    <div class="form-row ">
-                                        <div class="col ">
-                                            <label for="email " class="form-label ">First Name</label>
-                                            <input type="text " class="form-control ">
+                        <div class="col form-contact mt-3">
+                            <form class="contact-form">
+                                <div class="form-group mt-5">
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <label for="email" class="form-label">First Name</label>
+                                            <input type="text" class="form-control">
                                         </div>
-                                        <div class="col ">
-                                            <label for="email " class="form-label ">Last Name</label>
-                                            <input type="text " class="form-control ">
+                                        <div class="col">
+                                            <label for="email" class="form-label">Last Name</label>
+                                            <input type="text" class="form-control">
                                         </div>
-
                                     </div>
-                                    <div class="mt-3 ">
-                                        <label for="email " class="form-label ">Email</label>
+                                    <div class="mt-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="text" class="form-control ">
+                                    </div>
+                                    <div class="mt-3">
+                                        <label for="phonenumber" class="form-label">Phone Number</label>
                                         <input type="text " class="form-control ">
                                     </div>
-                                    <div class="mt-3 ">
-                                        <label for="phonenumber " class="form-label ">Phone Number</label>
-                                        <input type="text " class="form-control ">
-                                    </div>
-                                    <div class="mt-3 ">
-                                        <label for="phonenumber " class="form-label ">Message</label>
+                                    <div class="mt-3">
+                                        <label for="phonenumber" class="form-label">Message</label>
                                         <textarea class="form-control " id="textAreaExample1 " rows="4 "></textarea>
                                     </div>
-                                    <div class="mt-3 ">
-                                        <button type="submit " class="btn ">Send Message</button>
+                                    <div class="mt-3">
+                                        <button type="submit" class="btn">Send Message</button>
                                     </div>
-
                             </form>
                             </div>
                         </div>
         </section>
+        <div class="footer">
 
+        </div>
 
+        </footer>
     </main>
 
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js "></script>
